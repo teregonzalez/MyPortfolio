@@ -1,6 +1,67 @@
-.language {
-    color: #282E65;
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Jost:wght@700&family=Koulen&family=Yaldevi&display=swap");
+.header {
+  display: flex;
+  flex-direction: column;
+  color: #282e65;
+  font-family: "Jost";
+  margin: auto;
+  position: relative;
+  align-items: center;
 }
-.h3 {
-    color: #282E65;
+.language {
+  color: #282e65;
+  font-size: 7px;
+line-height: 10px;
+letter-spacing: 0.265em;
+}
+.profileName {
+font-weight: 700;
+font-size: 21px;
+letter-spacing: 2.025em;
+margin: 0 auto;
+padding-left: 1.9em;
+}
+.profileSurname {
+  font-weight: 500;
+  font-size: 21px;
+  letter-spacing: 0.505em;
+  text-align: center;
+}
+.profileJob {
+  font-weight: 700;
+  font-size: 7px;
+  line-height: 10px;
+  letter-spacing: 0.55em;
+  color: #fffaf2;
+  margin: 3px;
+  z-index: auto;
+  position: absolute;
+}
+.nameLine {
+    z-index: -2;
+  width: 194px;
+  height: 12px;
+  color: #282e65;
+  border: 2px solid #282e65;
+  background-color: #282e65;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.jobContainer{
+    position: relative;
+    display: flex;
+  justify-content: center;
+}
+.nameJobContainer {
+    justify-content:space-between;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.languageContainer{
+    display: flex;
+    align-self: flex-end;
 }

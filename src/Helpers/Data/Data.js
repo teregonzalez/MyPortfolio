@@ -4,5 +4,5 @@ export const profileData = {
     "mail": "teregonzalezpro@gmail.com",
     "Linkedin": "https://www.linkedin.com/in/teregonzalezmiranda/",
     "Github": "https://github.com/teregonzalez",
-    "": "teregonzalezpro@gmail.com",
+    "job": "FRONT-END WEB DEVELOPER"
 };
